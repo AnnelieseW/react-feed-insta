@@ -49,8 +49,12 @@ export default class InstaFeed extends React.Component {
     }
 
     render(){
+        const styles = {
+            display: 'flex',
+            flexWrap:'wrap',
+        };
         return(
-            <div>
+            <div style = {styles}>
                 {this.state.imgArray.map(img => {
                     return <Img thumbnail_src = {img.node.thumbnail_src} width={this.state.imgWidth}/>
                 })}
