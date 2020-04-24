@@ -7,3 +7,6 @@ npm install react-feed-insta
 to use 
 
 <InstaFeed name={username_of public_profile} imgWidth={desired_width_of_each_square_img} />
+
+example :
+<InstaFeed name={'natgeotravel'} imgwidth={'200px'}/>
